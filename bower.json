@@ -1,0 +1,21 @@
+{
+  "name": "angular-unit-testing",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jamie Brown <jamiebrown201@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jamiebrown201/angularJs-unit-test-practice",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-mocks": "^1.5.3"
+  }
+}
