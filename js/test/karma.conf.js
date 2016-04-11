@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon Apr 11 2016 19:35:25 GMT+0100 (BST)
+// Generated on Sun Oct 25 2015 12:32:31 GMT+0100 (CET)
 
 module.exports = function(config) {
   config.set({
@@ -17,6 +17,7 @@ module.exports = function(config) {
     files: [
       '../../bower_components/angular/angular.js',
       '../../bower_components/angular-mocks/angular-mocks.js',
+      '../app.js',
       'unit/*.js'
     ],
 
@@ -65,7 +66,7 @@ module.exports = function(config) {
     singleRun: false,
 
     // Concurrency level
-    // how many browser should be started simultaneous
+    // how many browser should be started simultanous
     concurrency: Infinity
-  })
-}
+  });
+};
