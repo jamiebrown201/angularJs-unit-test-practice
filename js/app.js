@@ -18,4 +18,8 @@ testingAngularApp.controller('testingAngularCtrl', function($rootScope, $scope) 
     );
   };
 
+  $scope.removeDestination = function(index) {
+    $scope.destinations.splice(index, 1);
+  };
+
 });
